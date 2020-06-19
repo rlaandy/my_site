@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".slider").bxSlider();
+		});
+
+	</script>
+</head>
+	<style>
+
+	.visual{}
+        .visual .view{width: 1100px;position: relative;height: 700px;margin: 0 auto;}
+        .visual .slider li{overflow: hidden;}
+        .visual .slider img.img{position: absolute;left: 50%;}
+        .visual .visualTxt{position: absolute;
+        top: 150px;width: 500px;}
+        .visual .visualTxt h3{font-size: 2.5em;margin-bottom: 20px;}
+        .visual .visualTxt p{margin-bottom: 30px;}
+        .visual .visualTxt a{display: block;
+        width: 200px;height: 60px;background: navy;color: white;border-radius: 30px;text-align: center;
+        line-height: 60px;}
+
+	</style>
+<body>
+
+<div class="visual">
+		<ul class="slider">
+			<li>  <!-- w100% -->
+				<div class="view"> <!-- w1100 -->
+					<img src="images/A.png" alt="" class="img">
+					<div class="visualTxt">
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, unde.</p>
+						<a href="#" class="btnA">Request Demo</a>
+					</div>
+				</div>
+				<li>  <!-- w100% -->
+				<div class="view"> <!-- w1100 -->
+					<img src="images/A.png" alt="" class="img">
+					<div class="visualTxt">
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, unde.</p>
+						<a href="#" class="btnA">Request Demo</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+
+	</div>
+</body>
+</html>

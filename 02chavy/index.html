@@ -4,22 +4,27 @@
 	<meta charset="UTF-8">
 	<title>chavy</title>
 	<link rel="stylesheet" href="css/reset.css">
-	<link rel="stylesheet" href="bxslider/css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
 	<script src="js/jquery-3.1.1.min.js"></script>
 	<script src="js/jquery.bxslider.js"></script>
+	<script>
+		$(document).ready(function(){
+			$(".slider").bxSlider();
+		});
 
+	</script>
 	<style>
-		.headerWrap{width: 1200px;margin: 0 auto;
-		position: relative;}
-		.headerWrap img{position: absolute;top: 0;}
+		.headerWrap{width: 1200px;margin: 0 auto;height: 140px;
+		position: relative;padding-top:50px;}
+		.headerWrap img{position: absolute;top: 30px;}
 
 
-		.header{width: 600px;position: absolute;left: 300px;}
-		.header>li{float: left;width: 25%;line-height: 45px;margin-top: 25px;}
+		.header{width: 600px;height: 30px;position: absolute;left: 300px;}
+		.header>li{float: left;width: 25%;line-height: 45px;}
 		
-		.headerTwo{width: 200px;position: absolute;
+		.headerTwo{width: 200px;height: 30px;position: absolute;
 			left: 1000px;}
-		.headerTwo>li{float: left;width: 50%;line-height: 45px;margin-top: 25px;}
+		.headerTwo>li{float: left;width: 50%;line-height: 45px;}
 		.box a{background-color: navy;border-radius: 45px;}
 		.headerTwo:last-child .box a{color:white}
 		
@@ -38,10 +43,50 @@
             text-align: center;
             height: 45px;
             line-height: 45px;}
+
+        .visual{}
+        .visual .view{width: 1100px;position: relative;height: 700px;margin: 0 auto;}
+        .visual .slider li{overflow: hidden;}
+        .visual .slider img.img{position: absolute;left: 25%;}
+        .visual .visualTxt{position: absolute;right: 70%;
+        	top: 150px;width: 500px;}
+        .visual .visualTxt h3{font-size: 2.5em;margin-bottom: 20px;}
+        .visual .visualTxt p{margin-bottom: 30px;}
+        .visual .visualTxt a{display: block;
+      	 	width: 200px;height: 60px;background: navy;color: white;border-radius: 30px;text-align: center;
+      	 	line-height: 60px;}
+	
+		.bx-wrapper{
+            -moz-box-shadow: 0 none;
+            -webkit-box-shadow: 0 none;
+            box-shadow: 0 none;
+            border: 0 none;
+            background: #fff;
+            margin-bottom: 0;}
+		.bx-wrapper .bx-pager{bottom:30px;}
+		.bx-wrapper .bx-next {right: 80px;}
+    	.bx-wrapper .bx-prev {left: 170px;}
+		
+
+	.contents{width:1200px;margin: 0 auto;height: 170px;background-color: #f3f5ff;}
+	.contents .contentsTxt h3{font-size: 2.5em;text-align: center;padding-top: 20px;}
+	.contents .contentsTxt p{font-size: 1em;text-align: center;padding-top: 20px;color: #747474}
+
+	.contentsTwo{width: 1200px;margin: 0 auto;height: 600px;background-color: skyblue;position: relative;
+	}
+	.contentsTwo .contentsTxt{position: absolute;right: 50%;
+        	top: 150px;width: 500px;}
+    .contentsTwo .contentsTxt h3{font-size: 2.5em;margin-bottom: 20px;}
+    .contentsTwo .contentsTxt p{margin-bottom: 30px;}
+    .contentsTwo .contentsTxt a{display: block;
+      	 	width: 200px;height: 60px;background: navy;color: white;border-radius: 30px;text-align: center;
+      	 	line-height: 60px;}
+
 	</style>
+
 </head>
 <body>
-	<div class="headerWrap">
+	<header class="headerWrap">
 			<img src="images/logo.jpg" alt="">
 		<div class="header clearfix">
 			<li><a href="#">Home</a></li>
@@ -53,8 +98,46 @@
 			<li><a href="#">Sign in</a></li>
 			<li class="box"><a href="#">Register</a></li>
 		</div>
+	</header>
+
+	<div class="visual">
+		<ul class="slider">
+			<li>  <!-- w100% -->
+				<div class="view"> <!-- w1100 -->
+					<img src="images/A.png" alt="" class="img">
+					<div class="visualTxt">
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, unde.</p>
+						<a href="#" class="btnA">Request Demo</a>
+					</div>
+				</div>
+				<li>  <!-- w100% -->
+				<div class="view"> <!-- w1100 -->
+					<img src="images/A.png" alt="" class="img">
+					<div class="visualTxt">
+						<h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, unde.</p>
+						<a href="#" class="btnA">Request Demo</a>
+					</div>
+				</div>
+			</li>
+		</ul>
+
 	</div>
 
-	
+	<div class="contents">
+		<contents class="contentsTxt">
+			<h3>Save money & money will save you.</h3>
+			<p>I will tell you how to become a rich. Close the doors. Be fearful<br>when other are greedy.</p>
+		</contents>
+	</div>
+
+	<div class="contentsTwo">
+		<div class="contentsTxt">
+			<h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, unde.</p>
+			<a href="#" class="btnA">Request Demo</a>
+		</div>
+	</div>
 </body>
 </html>
