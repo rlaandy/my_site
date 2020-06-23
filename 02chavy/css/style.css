@@ -1,0 +1,105 @@
+@charset "UTF-8";
+.headerWrap{width: 1200px;margin: 0 auto;height: 140px;
+		position: relative;padding-top:50px;}
+		.headerWrap img{position: absolute;top: 30px;}
+
+
+		.header{width: 600px;height: 30px;position: absolute;left: 300px;}
+		.header>li{float: left;width: 25%;line-height: 45px;}
+		
+		.headerTwo{width: 200px;height: 30px;position: absolute;
+			left: 1000px;}
+		.headerTwo>li{float: left;width: 50%;line-height: 45px;}
+		.box a{background-color: navy;border-radius: 45px;}
+		.headerTwo:last-child .box a{color:white}
+		
+		.header a:hover{background-color: navy; color: white;}
+		.headerTwo a:hover{background-color: navy; color: white;border-radius: 45px}
+		.headerTwo .box:hover{background-color: navy; color: black;}
+		
+		.header a{color: black; 
+            display: block;
+            text-align: center;
+            height: 45px;
+            line-height: 45px;}
+
+        .headerTwo a{color: black; 
+            display: block;
+            text-align: center;
+            height: 45px;
+            line-height: 45px;}
+
+        .visual{}
+        .visual .view{width: 1100px;position: relative;height: 700px;margin: 0 auto;}
+        .visual .slider li{overflow: hidden;}
+        .visual .slider img.img{position: absolute;left: 25%;}
+        .visual .visualTxt{position: absolute;right: 70%;
+        	top: 150px;width: 500px;}
+        .visual .visualTxt h3{font-size: 2.5em;margin-bottom: 20px;}
+        .visual .visualTxt p{margin-bottom: 30px;}
+        .visual .visualTxt a{display: block;
+      	 	width: 200px;height: 60px;background: navy;color: white;border-radius: 30px;text-align: center;
+      	 	line-height: 60px;}
+		.visual .visualTxt a:hover{background: #f8f9ff; color: navy;}
+		
+		.bx-wrapper{
+            -moz-box-shadow: 0 none;
+            -webkit-box-shadow: 0 none;
+            box-shadow: 0 none;
+            border: 0 none;
+            background: #fff;
+            margin-bottom: 0;}
+		.bx-wrapper .bx-pager{bottom:30px;}
+		.bx-wrapper .bx-next {right: 80px;}
+    	.bx-wrapper .bx-prev {left: 170px;}
+		
+
+	.contents{width:100%;margin: 0 auto;height: 170px;background-color: #f3f5ff;}
+	.contents .contentsTxt h3{font-size: 2.5em;text-align: center;padding-top: 20px;}
+	.contents .contentsTxt p{font-size: 1em;text-align: center;padding-top: 20px;color: #747474}
+	
+
+	.contentsTwo{width: 1200px;margin: 0 auto;height: 800px;position: relative;}
+	.contentsTwo .contentsTxt{position: absolute;right: 50%;
+        	top: 250px;width: 500px;}
+    .contentsTwo .contentsTxt h3{font-size: 2.5em;margin-bottom: 20px;}
+    .contentsTwo .contentsTxt p{margin-bottom: 30px;}
+    .contentsTwo .contentsTxt a{display: block;
+      	 	width: 200px;height: 60px;background: navy;color: white;border-radius: 30px;text-align: center;
+      	 	line-height: 60px;}
+	.contentsTwo .contentsTxt a:hover{background-color:#f8f9ff; color: navy;}
+	
+	.boxWrap{
+			position: absolute;
+			right: 100px;	
+			width: 420px;
+			height: 420px;
+			margin-top: 200px;
+			
+		}
+	.boxWrap li{background:white;float:left;width: 180px;height: 180px;padding: 40px;margin: 15px;box-shadow: 0 0 20px #000;}
+	.boxWrap img{margin: 0 auto;margin-bottom: 20px}
+	.boxWrap p{text-align: center;}
+
+	
+	.boxWrap li:nth-child(2){background:#f3f5ff;}
+	
+	.visualTwo{}
+	
+	.visualTwo .view{width: 100%;margin: 0 auto;height: 800px;background:#f8f9ff}
+	.visualTwo .test{width: 1200px; margin: auto;position: relative;}
+	.visualTwo img.img{position: absolute;right: 0;top: 100px;}
+	.visualTwo .visualTxt{position: absolute;right: 50%;/*left: 29%;
+*/        	top: 250px;width: 500px;}
+        .visualTwo .visualTxt h3{font-size: 2.5em;margin-bottom: 20px;}
+        .visualTwo .visualTxt p{margin-bottom: 30px;}
+        .visualTwo .visualTxt a{display: block;
+      	 	width: 200px;height: 60px;background: navy;color: white;border-radius: 30px;text-align: center;
+      	 	line-height: 60px;}
+		.visualTwo .visualTxt a:hover{background: white; color: navy;}
+
+		.A{width: 1200px;margin: auto;text-align: center;background: green;}
+		.A h1{background: blue;}
+		.A li{float: left;color: white;}
+		.A li a{display: block;
+      	 	width: 200px;height: 60px;background: navy;border-radius: 30px;line-height: 60;}
