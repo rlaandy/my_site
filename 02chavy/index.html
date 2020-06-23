@@ -55,7 +55,8 @@
         .visual .visualTxt a{display: block;
       	 	width: 200px;height: 60px;background: navy;color: white;border-radius: 30px;text-align: center;
       	 	line-height: 60px;}
-	
+		.visual .visualTxt a:hover{background: white; color: navy;}
+		
 		.bx-wrapper{
             -moz-box-shadow: 0 none;
             -webkit-box-shadow: 0 none;
@@ -68,12 +69,12 @@
     	.bx-wrapper .bx-prev {left: 170px;}
 		
 
-	.contents{width:1200px;margin: 0 auto;height: 170px;background-color: #f3f5ff;}
+	.contents{width:100%;margin: 0 auto;height: 170px;background-color: #f3f5ff;}
 	.contents .contentsTxt h3{font-size: 2.5em;text-align: center;padding-top: 20px;}
 	.contents .contentsTxt p{font-size: 1em;text-align: center;padding-top: 20px;color: #747474}
+	
 
-	.contentsTwo{width: 1200px;margin: 0 auto;height: 600px;background-color: skyblue;position: relative;
-	}
+	.contentsTwo{width: 1200px;margin: 0 auto;height: 600px;position: relative;}
 	.contentsTwo .contentsTxt{position: absolute;right: 50%;
         	top: 150px;width: 500px;}
     .contentsTwo .contentsTxt h3{font-size: 2.5em;margin-bottom: 20px;}
@@ -81,7 +82,22 @@
     .contentsTwo .contentsTxt a{display: block;
       	 	width: 200px;height: 60px;background: navy;color: white;border-radius: 30px;text-align: center;
       	 	line-height: 60px;}
+	.contentsTwo .contentsTxt a:hover{background-color: white; color: navy;}
+	.boxWrap{
+			position: absolute;
+			right: 100px;	
+			width: 420px;
+			height: 420px;
+			margin-top: 100px;
+			
+		}
+	.boxWrap li{background:white;float:left;width: 180px;height: 180px;padding: 40px;margin: 15px;box-shadow: 0 0 20px #000;}
+	.boxWrap img{margin: 0 auto;margin-bottom: 20px}
+	.boxWrap p{text-align: center;}
 
+	
+	.boxWrap li:nth-child(2){background:#f3f5ff;}
+	
 	</style>
 
 </head>
@@ -133,11 +149,20 @@
 	</div>
 
 	<div class="contentsTwo">
+		<ul class="boxWrap clearfix">
+			<li><img src="images/B.png" alt=""><p>Registration<br>Guide</p></li>
+			<li><img src="images/E.png" alt=""><p>Live Call<br>Support</p></li>
+			<li><img src="images/C.png" alt=""><p>Secured<br>Payment</p></li>
+			<li><img src="images/D.png" alt=""><p>Track Your<br>Move</p></li>
+		</ul>
+
 		<div class="contentsTxt">
 			<h3>Lorem ipsum dolor sit amet, consectetur adipisicing.</h3>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, unde.</p>
 			<a href="#" class="btnA">Request Demo</a>
 		</div>
 	</div>
+
+
 </body>
 </html>
