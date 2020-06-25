@@ -149,10 +149,10 @@
 	.line{width: 100%;background: #f8f9ff}
 	.line .footerLine{border: 1px solid gray;width: 1000px;margin: auto;}
 	
-	.lastFoot{width: 100%;height: 100px;margin: 0 auto;background:#f8f9ff }
-	.lastFoot .bottom{width: 1200px;float: left;position: relative;margin: auto;
+	.lastFoot{width: 100%;height: 100px;background:#f8f9ff }
+	.lastFoot .bottom{width: 1200px;position: relative;
 	}
 	.lastFoot .bottom li{float: left;}
-	.lastFoot .bottom li:nth-child(1){position: absolute;left: 400px;}
+	.lastFoot .bottom li:nth-child(1){position: absolute;left: 435px;}
 	.lastFoot .bottom li:nth-child(2){position: absolute;right: -40px;}
 	.lastFoot .bottom li:nth-child(3){position: absolute;right: -195px;}
