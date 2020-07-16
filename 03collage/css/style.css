@@ -81,15 +81,32 @@ header a:hover{color: white;background: navy;}
 #contents .container>ul>li{float: left;width: 25%;height: 225px;}
 #contents .container>ul>li:nth-child(1){background: #f00;width: 75%;height: 450px;}
 #contents .container>ul>li:nth-child(2){background: #fff;height: 450px;}
-#contents .container>ul>li:nth-child(3){background-image: url(../images/03.png);
-										background-repeat:no-repeat;
-										background-position: center;
-										background-size:cover;
-										}
-#contents .container>ul>li:nth-child(4){background-image: url(../images/04.png);
-										background-repeat:no-repeat;
-										background-position: center;
-										background-size:cover;}
+#contents .container>ul>li:nth-child(3){background: navy;}
+#contents .container .hot li{float: left;margin-left: 28px;}
+/*#contents .container .hot li:first-child{margin-left: 0;}*/
+#contents .container .hot li p{text-align: center;color: #fff;margin-top: 10px;}
+#contents .container .hot h2{font-weight: bold;margin-bottom: 30px;color: #fff;margin-top: 20px;margin-left: 20px}
+
+#contents .container>ul>li:nth-child(4){}
+#contents .container .z li.notice{
+			width: 300px;height: 225px;
+			background: #1651b7;color:white;padding: 20px;
+		}
+#contents .container .z li.notice h3{
+			line-height: 50px;
+			border-bottom: 1px solid #fff;
+			margin-bottom: 15px;}
+
+#contents .container .z li.notice a{display: block;margin-bottom: 10px;}
+
+#contents .container .z p.noticeTxt{color: white;font-size: 14px;
+		background: url(images/main_bl1.gif) no-repeat 0 55%;
+		text-indent: 8px;position: relative;
+		
+		}
+#contents .container .z p.noticeTxt span{position: absolute;right: 0;top: 0;
+		}
+
 #contents .container>ul>li:nth-child(5){background-image: url(../images/05.png);
 										background-repeat:no-repeat;
 										background-position: center;
