@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>LuMeN.D</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/jquery.bxslider.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/all.css">
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/jquery.bxslider.js"></script>
+	<script>
+		$(document).ready(function(){
+         var mySlider=$(".slider").bxSlider({
+            auto:true, 
+            controls:false, 
+            pager:false
+            });
+			$(".nextBtn").click(function(){
+            	mySlider.goToNextSlide();
+        	});
+         	$(".prevBtn").click(function(){
+            	mySlider.goToPrevSlide();
+        	});
+		});
+
+	</script>
+</head>
+<body>
+<!-- head -->
+
+	<header id="header">
+		<div class="headerWrap">
+			<a href="#" class="left"><h2>LOGO</h2></a>
+			<div class="hdMenu">
+				<ul class="clearfix">
+					<li><a href="#">회사소개</a></li>
+					<li><a href="#">윤리경영</a></li>
+					<li><a href="#">제품/기술</a></li>
+					<li><a href="#">지속가능성</a></li>
+					<li><a href="#">홍보채널</a></li>
+					<li><a href="#">인재채용</a></li>
+				</ul>
+			</div>
+			<a href="#" class="right"><img src="main/images/KOR.png" alt=""></a>
+		</div>
+
+<!-- visualSlider -->
+		<div class="visual">
+			<ul class="slider">
+				<li>  <!-- w100% -->
+					<div class="view"> <!-- w1100 -->
+						<img src="main/images/main_banner01.jpg" alt="" class="slImg">
+					</div>
+				</li>
+				<li>  <!-- w100% -->
+					<div class="view"> <!-- w1100 -->
+						<img src="main/images/main_banner02.jpg" alt="" class="slImg">
+					</div>
+				</li>
+				<li>  <!-- w100% -->
+					<div class="view"> <!-- w1100 -->
+						<img src="main/images/main_banner03.jpg" alt="" class="slImg">
+					</div>
+				</li>
+				<li>  <!-- w100% -->
+					<div class="view"> <!-- w1100 -->
+						<img src="main/images/main_banner04.jpg" alt="" class="img">
+					</div>
+				</li>
+			</ul>
+			<div class="nextBtn">
+        	    <img src="main/images/next.png" alt="next">
+        	</div>
+        	<div class="prevBtn">
+        	    <img src="main/images/prev.png" alt="prev">
+        	</div>
+		</div>
+	</header>
+
+<!-- container -->
+	<div id="contents">
+		<div class="container">
+			<ul class="clearfix">
+				<li>1</li>
+				<li>2</li>
+				<li>3</li>
+				<li>4</li>
+				<li>5</li>
+				<li>6</li>
+				<li>7</li>
+				<li>8</li>
+				<li>9</li>
+				<li>10</li>
+				<li>11</li>
+			</ul>
+		</div>
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+#header{width: 1500px;height: 124px;margin: 0 auto;}
+	.headerWrap{width: 1260px;position: relative;margin: 0 auto;z-index: 1;
+	}
+	.headerWrap>a.left{position: absolute;
+		display: block;left: 0;font-size:1.5em;color: white;top:40px;
+	}
+	.headerWrap>a.right{position: absolute;
+		display: block;right: 0;top:40px;
+	}
+#header>.headerWrap>.hdMenu{}
+#header>.headerWrap>.hdMenu>ul{position: absolute;width: 720px;top: 45px;left:400px;
+}
+#header>.headerWrap>.hdMenu>ul>li{float: left;
+		text-align: center;width: 120px;
+}
+#header>.headerWrap>.hdMenu>ul>li>a{float: left;line-height: 40px;
+		text-align: center;display: block;width:100px;height: 40px;
+		color:white;
+}
+#header>.headerWrap>.hdMenu>ul>li>a:hover{color: magenta;}
+/*visualSlide*/
+#header>.visual{position: relative;z-index: 0}
+#header>.visual>.view{width: 1500px;/*position: relative*/;height: 1010px;margin: 0 auto;position: relative;
+}
+#header>.visual>.slider>li{overflow: hidden;}
+#header>.visual>.slider>img.img{position: absolute;top: 0;}
+
+#header>.visual>.nextBtn,.prevBtn{
+width: 55px;
+position: absolute; top:50%; margin-top: -35px;
+cursor: pointer;
+}
+#header>.visual>.prevBtn{left: 50px;}
+#header>.visual>.nextBtn{right: 50px;}
+
+	.bx-wrapper{
+        -moz-box-shadow: 0 none;
+        -webkit-box-shadow: 0 none;
+        box-shadow: 0 none;
+        border: 0 none;
+        background: #fff;
+        margin-bottom: 0;}
+	.bx-wrapper .bx-pager{bottom:30px;}
+	.bx-wrapper .bx-next {right: 80px;}
+    .bx-wrapper .bx-prev {left: 0px;}
+
+/*contents container*/
+#contents{background: green;position: relative;margin: 0 auto;
+	top:571px;
+	width: 1260px;
+	height: 1260px;}
+#contents .container>ul>li{float: left;width: 25%;height: 315px;}
+#contents .container>ul>li:nth-child(1){background: skyblue;}
+#contents .container>ul>li:nth-child(2){background: magenta;}
+#contents .container>ul>li:nth-child(3){background: blue;width: 630px;}
+#contents .container>ul>li:nth-child(4){background: coral;}
+#contents .container>ul>li:nth-child(5){background: pink;}
+#contents .container>ul>li:nth-child(6){background: red;width: 630px;}
+#contents .container>ul>li:nth-child(7){background: deeppink;height: 630px;}
+#contents .container>ul>li:nth-child(8){background: white;width: 630px;}
+#contents .container>ul>li:nth-child(9){background: skyblue;}
+#contents .container>ul>li:nth-child(10){background: magenta;}
+#contents .container>ul>li:nth-child(11){background: darkgray;width: 630px;}

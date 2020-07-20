@@ -1,0 +1,30 @@
+전체
+w1500px
+
+head
+w1500
+h124px
+
+슬라이드
+w1500px
+h1010px
+
+grid
+w1260px
+h1260px
+
+grid box
+w315px
+h315px
+
+가로box
+w630
+h315
+
+세로box
+w315px
+h630px
+
+
+
+서브컨텐츠 캡쳐 이미지
