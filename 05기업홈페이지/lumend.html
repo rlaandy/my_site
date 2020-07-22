@@ -23,6 +23,19 @@
             	mySlider.goToPrevSlide();
         	});
 		});
+		$(document).ready(function(){
+         var mySlider=$(".sliderTwo").bxSlider({
+            auto:true, 
+            controls:false, 
+            pager:false
+            });
+			$(".nextBtnTwo").click(function(){
+            	mySlider.goToNextSlide();
+        	});
+         	$(".prevBtnTwo").click(function(){
+            	mySlider.goToPrevSlide();
+        	});
+		});
 
 	</script>
 </head>
@@ -96,6 +109,47 @@
 			</ul>
 		</div>
 	</div>
+
+<!-- sliderTwo -->
+		<div id="middle">
+			<h1>BEST MENU</h1>
+			<div class="visualTwo">
+				<ul class="sliderTwo">
+					<li>  <!-- w100% -->
+						<div class="viewTwo"> <!-- w1100 -->
+							<img src="main/images/food01.jpg" alt="" class="slImg">
+						</div>
+					</li>
+					<li>  <!-- w100% -->
+						<div class="viewTwo"> <!-- w1100 -->
+							<img src="main/images/food02.jpg" alt="" class="slImg">
+						</div>
+					</li>
+					<li>  <!-- w100% -->
+						<div class="viewTwo"> <!-- w1100 -->
+							<img src="main/images/food03.jpg" alt="" class="slImg">
+						</div>
+					</li>
+					<li>  <!-- w100% -->
+						<div class="viewTwo"> <!-- w1100 -->
+							<img src="main/images/food04.jpg" alt="" class="img">
+						</div>
+					</li>
+					<li>  <!-- w100% -->
+						<div class="viewTwo"> <!-- w1100 -->
+							<img src="main/images/food05.jpg" alt="" class="img">
+						</div>
+					</li>
+				</ul>
+				<div class="nextBtnTwo">
+			        <img src="main/images/next.png" alt="next">
+			    </div>
+			    <div class="prevBtnTwo">
+			        <img src="main/images/prev.png" alt="prev">
+			    </div>
+			</div>
+		</div>
+	</header>
 
 </body>
 </html>
