@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>레스토랑</title>
+	<link rel="stylesheet" href="../w2020/css/reset.css">
+	<script src="../w2020/js/jquery-3.1.1.min.js"></script>
+</head>
+<style>
+	body,html{width: 100%;background: black;}
+	.wrapper{
+		position: relative;width: 100%;
+	}
+	#fixmenu{
+		position: fixed;
+    	top: 0;
+    	width: 100%;
+    	z-index: 991;
+    	background: #202425;
+	}
+	#fixmenu .fixbody{
+		width: 100%;height: 48px;
+    	margin: 0 auto;
+    	position: relative;}
+    #fixmenu .fixbody ul{text-align: center;
+    }
+
+    #fixmenu .fixbody ul.left{display: block;float: left;
+    }
+	#fixmenu .fixbody ul.left li{float: left;margin-left: 20px;
+	}
+	#fixmenu .fixbody ul.left li a{
+		display: block;
+    	padding: 15px 15px 12px;
+   		font-size: 14px;
+    	font-weight: 400;
+    	color: #fff;
+	}
+	#fixmenu .fixbody ul.right{display: block;float: right;margin-right: 40px
+	}
+
+	#fixmenu .fixbody ul.right li{float: right;margin-left: 20px;}
+	#fixmenu .fixbody ul.right li a{
+		display: block;
+    	padding: 15px 15px 12px;
+    	font-size: 14px;
+    	font-weight: 400;
+		color: #fff;
+	}
+	
+	#contents.bodyContents{
+		width: 100%;
+		position: relative;}
+	.bodyContents .motion{position: relative;
+	}
+	.bodyContents .motion h1.whi{
+		color: white;font-size: 80px;
+		position: absolute;top:400px;left: 300px;
+	}
+	.bodyContents .motion h1.col{
+		color: royalblue;font-size: 80px;
+		position: absolute;top:400px;left: 1100px;
+	}
+	.bodyContents .oled{
+		width: 100%;margin-top: 100px;
+	}
+	.bodyContents .oled h1.oledTxt{
+		font-size: 70px;text-align: center;
+		color: white;
+	}
+	.bodyContents .display{text-align: center;width: 100%;margin-top: 200px;}
+	.bodyContents .display h2.oledDisplay{
+		color: white;font-size: 50px;
+		font-weight: bolder;
+		float: left;margin-left: 300px;
+	}
+	.bodyContents .display span{
+		color: white;font-size: 30px;
+	}
+
+	.motion02{
+		position: absolute;
+    	top: 1600px;
+    	left: 13%;
+    	width: 360px;
+    	height: 894px;
+	}
+</style>
+<body>
+<!-- header -->
+<div class="wrapper">
+	<div id="container">
+		<div id="contents">
+			<div id="fixmenu">
+				<div class="fixbody">
+					<ul class="clearfix left">
+						<li><a href="#" class="anchor" style="font-size:18px;font-weight: bold">HIBRID2.0</a></li>
+						<li><a href="#" class="anchor">디스플레이</a></li>
+						<li><a href="#" class="anchor">스마트온</a></li>
+						<li><a href="#" class="anchor">상태표시</a></li>
+						<li><a href="#" class="anchor">퍼포먼스</a></li>
+						<li><a href="#" class="anchor">스타일</a></li>
+						<li><a href="#" class="anchor">사양</a></li>
+						<li><a href="#" class="anchor">구성품</a></li>
+						<li><a href="#" class="anchor">사용법</a></li>
+					</ul>
+					<ul class="clearfix right">
+						<li><a href="#">COUPON</a></li>
+						<li><a href="#">PLACE</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		<div class="bodyContents">
+			<div class="motion">
+				<img src="img/lil/vi01.png" alt="" class="iMotion_dummy">
+				<h1 class="whi">스마트한 혁신</h1> <h1 class="col">lil HYBRID 2.0</h1>
+			</div>
+			<div class="oled">
+				<h1 class="oledTxt">혁신에 스마트함을 더해 완전히 새로워진<br>릴 하이브리드 2.0을 소개합니다.</h1>
+			</div>
+			<div class="display clearfix">
+				<h2 class="oledDisplay">OLED 디스플레이</h2>
+				<span>언제 어디서나 디바이스의 상태를 쉽게 확인할수있습니다.<br>전면의 디스플레이가 당신의 답답함을 해결해 줄 테니까요.</span>
+			</div>
+			
+			<div class="motion02">
+				<img src="img/lil/vi02.png" alt="" class="iMotion_dummy">
+				
+			</div>
+		</div>
+		
+	</div>
+</div>
+</body>
+</html>
